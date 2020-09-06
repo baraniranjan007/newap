@@ -17,7 +17,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import withStyles from '@material-ui/core/styles/withStyles';
 import AccountBoxIcon from '@material-ui/icons/AccountBox';
 import NotesIcon from '@material-ui/icons/Notes';
-//import Avatar from '@material-ui/core/avatar';
+
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import MenuSharpIcon from '@material-ui/icons/MenuSharp';
@@ -161,7 +161,7 @@ class home extends Component {
 						<div className={classes.toolbar} />
 
 						<center>
-							//<Avatar src={this.state.profilePicture} className={classes.avatar} />
+							
 							<p>
 								{' '}
 								{this.state.firstName} {this.state.lastName}
